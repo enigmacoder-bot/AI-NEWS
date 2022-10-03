@@ -4,7 +4,6 @@ export default makeStyles((theme) => ({
   body: {
     padding: 0,
     margin: 0,
-    fontSize: "10px",
   },
   footer: {
     textAlign: "center",
