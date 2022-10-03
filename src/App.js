@@ -4,7 +4,7 @@ import NewsCards from "./components/NewsCards/NewsCards";
 import useStyles from "./styles.js";
 import wordsToNumbers from "words-to-numbers";
 import logo from "./images/logo-black.svg";
-
+import Footer from "./Footer";
 const alanKey =
   "7a943a3145041df8b6658b6595ea5d242e956eca572e1d8b807a3e2338fdd0dc/stage";
 const App = () => {
@@ -50,18 +50,15 @@ const App = () => {
       />
       <h1
         style={{
-          fontSize: "5rem",
+          fontSize: "2.5rem",
           color: "white",
           textAlign: "center",
-          display: "inline",
-          position: "absolute",
-          marginLeft: "25%",
-          marginTop: "30px",
         }}
       >
         AI NEWS
       </h1>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
+      <Footer />
     </div>
   );
 };
